@@ -9,6 +9,7 @@ var App = React.createClass({
         <img src="logo.png" className="app_logo"/>
         <span className="app_title">Hexo Admin</span>
         <ul className="app_nav">
+          <li><Link to="preview">Live Preview</Link></li>
           <li><Link to="posts">Posts</Link></li>
           <li><Link to="pages">Pages</Link></li>
           <li><Link to="about">About</Link></li>
